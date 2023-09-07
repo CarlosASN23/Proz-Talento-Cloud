@@ -7,27 +7,13 @@
 Andar = 20
 i = 0
 
-# Sem laços de repetição em ordem crescente
-print("Sem utilizar laços de repetição")
-print(f"Andar nº {i+1}")
-print(f"Andar nº {i+2}")
-print(f"Andar nº {i+3}")
-print(f"Andar nº {i+4}")
-print(f"Andar nº {i+5}")
-print(f"Andar nº {i+6}")
-print(f"Andar nº {i+7}")
-print(f"Andar nº {i+8}")
-print(f"Andar nº {i+9}")
-print(f"Andar nº {i+10}")
-print(f"Andar nº {i+11}")
-print(f"Andar nº {i+12}")
-print(f"Andar nº {i+14}")
-print(f"Andar nº {i+15}")
-print(f"Andar nº {i+16}")
-print(f"Andar nº {i+17}")
-print(f"Andar nº {i+18}")
-print(f"Andar nº {i+19}")
-print(f"Andar nº {i+20}")
+# Utilizando laço For com decrimento dentro da função
+for i in range(20,0,-1):
+
+    if i == 13:
+        continue
+    else:
+        print(f"Andar nº {i}")
 
 print("\n")
 
