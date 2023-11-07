@@ -1,0 +1,110 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#navbar ul{
+
+    list-style:none;
+    padding: 0;
+    background-color: rgb(37,37,39);
+   
+}
+
+#navbar ul li{
+    display: inline;
+}
+
+#navbar ul li a{
+    
+    color: white;
+    padding:20px;
+    text-decoration: none;
+    transition: all 0.6s;
+    display: inline-block;
+}
+
+#navbar ul li a:hover{
+    background-color: rgb(24,139,233);
+}
+
+.gallery{
+
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+img{
+    max-width: 500px;
+    max-height: 350px;
+    width: auto;
+    align-items: center;
+    justify-content: center;  
+}
+
+.image{
+
+    margin: 10px;
+    width: calc(33.33% - 20px);
+    overflow: hidden;
+}
+
+@media screen and (max-width:768px) {
+    .image{
+        width:100%;
+    }
+}
+
+@media screen and (max-width:480px) {
+
+    .image{
+        width: 100%;
+    }
+}
+
+.image img{
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s;
+}
+
+.image:hover img{
+    transform: scale(1.5);
+}
+
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.historia{
+    font-size: justify;
+    align-content: center;
+    display: flex;
+}
+
+footer{
+    background: rgb(211, 208, 208);
+    justify-content: space-between;
+    text-align: center;
+}
