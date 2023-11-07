@@ -1,0 +1,30 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+
+    justify-content: center;
+    text-align: center;
+
+}
+h1{
+    text-justify: auto;
+    justify-content: center;
+    align-content: center;
+}
+p{
+    text-align: justify; 
+}
+
+img {
+    align-items: center;
+    margin:40px;
+    border: solid black 8px;
+    padding: 10px;
+    justify-content: center;
+}
